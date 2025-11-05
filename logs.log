@@ -1,0 +1,40 @@
+2025-10-31 | ERROR | Error in test_get_books2 : test_get_books2() missing 1 required positional argument: 'func'
+2025-10-31 | ERROR | Error in test_get_books2 : Invalid code status, expected 200, received 200.
+assert 200 == 201
+ +  where 200 = <Response [200]>.status_code
+2025-10-31 | ERROR | Error in test_get_books2 : Invalid code status, expected 200, received 200.
+assert 200 == 201
+ +  where 200 = <Response [200]>.status_code
+2025-10-31 | ERROR | Error in test_get_books2 : Invalid code status, expected 200, received 200.
+assert 200 == 201
+ +  where 200 = <Response [200]>.status_code
+2025-10-31 | ERROR | Error in test_get_books2 : Invalid code status, expected 200, received 200.
+assert 200 == 201
+ +  where 200 = <Response [200]>.status_code
+2025-10-31 | ERROR | Error in test_get_books2 : Invalid code status, expected 200, received 200.
+assert 200 == 201
+ +  where 200 = <Response [200]>.status_code
+2025-10-31 | ERROR | Error in test_get_books2 : Invalid code status, expected 200, received 200.
+assert 200 == 201
+ +  where 200 = <Response [200]>.status_code
+2025-10-31 | ERROR | Error in test_get_books2 : Invalid code status, expected 200, received 200.
+assert 200 == 201
+ +  where 200 = <Response [200]>.status_code
+2025-10-31 | ERROR | Error in test_get_books2 : Invalid code status, expected 200, received 200.
+assert 200 == 201
+ +  where 200 = <Response [200]>.status_code
+2025-10-31 | ERROR | Error in test_get_books2 : Invalid code status, expected 200, received 200.
+assert 200 == 201
+ +  where 200 = <Response [200]>.status_code
+2025-10-31 | ERROR | Error in test_get_books2 : Invalid code status, expected 200, received 200.
+assert 200 == 201
+ +  where 200 = <Response [200]>.status_code
+2025-10-31 | ERROR | Error in test_get_books2 : Invalid code status, expected 200, received 200.
+assert 200 == 201
+ +  where 200 = <Response [200]>.status_code
+2025-10-31 | ERROR | Error in test_get_books2 : Invalid code status, expected 200, received 200.
+assert 200 == 201
+ +  where 200 = <Response [200]>.status_code
+2025-11-04 | ERROR | Error in test_get_books2 : Invalid code status, expected 200, received 200.
+assert 200 == 201
+ +  where 200 = <Response [200]>.status_code

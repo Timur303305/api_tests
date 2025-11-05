@@ -1,0 +1,15 @@
+<Response [200]>
+200
+[{'available': True, 'id': 1, 'name': 'The Russian', 'type': 'fiction'},
+ {'available': True, 'id': 3, 'name': 'The Vanishing Half', 'type': 'fiction'},
+ {'available': True,
+  'id': 4,
+  'name': 'The Midnight Library',
+  'type': 'fiction'},
+ {'available': True,
+  'id': 6,
+  'name': 'Viscount Who Loved Me',
+  'type': 'fiction'},
+ {'available': False, 'id': 2, 'name': 'Just as I Am', 'type': 'non-fiction'},
+ {'available': True, 'id': 5, 'name': 'Untamed', 'type': 'non-fiction'}]
+https://simple-books-api.click/books
