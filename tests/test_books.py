@@ -2,27 +2,30 @@ from pprint import pprint
 
 import requests
 
+class BooksAPI:
+    base_url = "https://simple-books-api.click"
+
+    def get_books(self):
+        url = f"{self.base_url}/books"
+        response = requests.get(url)
+        return response.json()
 
 def test_get_books():
-    url = "https://simple-books-api.click/books"
-    response = requests.get(
-        url=url
-    )
-    print(response)
-    print(response.status_code)
-    pprint(response.json())
-    print(response.url)
+    api = BooksAPI()
+    books = api.get_books()
+    assert isinstance(books, list), "Expected a list of books"
+    print(books)
 
-def test_get_books1():
-    url = "https://simple-books-api.click/books"
-    response = requests.get(
-        url=url
-    )
-    assert response.status_code == 200
+def test_books_not_empty():
+    api = BooksAPI()
+    books = api.get_books()
+    assert books, "The list of books is empty"
+    print(books)
 
-def test_get_books2():
-    url = "https://simple-books-api.click/books"
-    response = requests.get(
-        url=url
-    )
-    assert response.status_code == 200, f"Invalid code status, expected 200, received {response.status_code}."
+def test_books_have_required_fields():
+    api = BooksAPI()
+    books = api.get_books()
+    for book in books:
+        assert 'id' in book, "Book is missing 'id' field"
+        assert 'name' in book, "Book is missing 'title' field"
+        print(books)
